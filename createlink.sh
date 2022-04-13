@@ -29,4 +29,4 @@ command_file="$command_path/$command_name"
 # Currently missing a check for existing as I am assuming I am wanting
 # to overwrite it.
 echo "open '$url'" > "$command_file"
-chmod +x "$command_file"
+chmod u+x "$command_file"
